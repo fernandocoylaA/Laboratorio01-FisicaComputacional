@@ -137,9 +137,11 @@ while True:
         print("\n")
         print("**Grafica de desplazamiento en funcion del tiempo**")
         grafica()
+        nuevaOperacion = errorOperacion()
     else:
         print("Opción no válida")
         continue
+
     
     if nuevaOperacion.upper() != "S" :
         print("Saliendo...")
